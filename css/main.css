@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.masthead{
+  background-image: url("../images/white_mini_waves.png");
+  background-size: 200px auto;
+  padding-top: 1em;
+  background-repeat:repeat;
+  background-position:left top;
+  text-align:center;
+  padding-bottom: 0em;
+}
