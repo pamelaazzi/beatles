@@ -16,3 +16,10 @@ html {
   text-align:center;
   padding-bottom: 0em;
 }
+
+.beetle-1{
+  float: left;
+  width: 15%;
+  margin: 0.5em;
+  padding-top:2em;
+}
