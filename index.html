@@ -1,52 +1,60 @@
 <!DOCTYPE html>
 <html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Beetles</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
-  <link href="css/main.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<title>Beetles</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/main.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+
 </head>
 
-  <body>
-    <header class="masthead">
-       <img class="beetle-1"src="images/beetle.svg">
-       <img class="beetle-2"src="images/beetle.svg">
+<body>
+  <header class="masthead">
+      <h1>Beetles</h1>
+  <nav>
+  <ol>
+    <li><a href="#ant">Ant Nest</a></li>
+    <li><a href="#stag">Stag</a></li>
+    <li><a href="#dung">Dung</a></li>
+    <li><a href="#tortoise">Tortoise</a></li>
+  </ol>
+</nav>
+</header>
 
-    <h1>Beetles</h1>
+<main>
 
-    <nav>
-        <ol>
-            <li> <a href="#antnest"> Ant Nest </a></li>
-            <li> <a href="#stag"> Stag </a></li>
-            <li> <a href="#dung"> Dung </a></li>
-            <li> <a href="#tortoise"> Tortoise </a></li>
-        </ol>
-    </nav>
+<div class="all">
 
-      <div class="banner">
-        <h2>Beetles: 25% of all known <br> animal life-forms.</h2>
+    <div class="rocks">
+      <img class="rocks" src="images/rocks.jpg" alt="Rocks">
+        <p>Beetles: 25% of all known animal life-forms.</p>
       </div>
 
-      <div class="box1">
-        <img class="left" src="images/ant-nest-beetle.jpg" alt="Ant nest beetle">
-          <a id="antnest" class="btn" href="#">Ant Nest</a>
-
-        <img class="right" src="images/stag-beetle.jpg" alt="Stag beetle">
-          <a id="stag" class="btn2" href="#">Stag</a>
-      </div>
-
-      <div class="box2">
-        <img class="left2" src="images/dung-beetle.jpg" alt="Dung beetle">
-          <a id="dung" class="btn3" href="#">Dung</a>
-
-       <img class="right2" src="images/tortoise-beetle.jpg" alt="Tortoise beetle">
-          <a id="tortoise" class="btn4" href="#">Tortoise</a>
+    <div id="ant" class="ant">
+      <img src="images/ant-nest-beetle.jpg" alt="Ant nest beetle">
+        <a class="btn-1" href="#">Ant Nest</a>
     </div>
-  </body>
 
-    <footer>
-      <div class="footer" src="images/beetle.svg" alt="beetle"></div>
-    </footer>
+    <div id="stag" class="stag">
+      <img src="images/dung-beetle.jpg" alt="Stag beetle">
+        <a class="btn-2" href="#">Stag</a>
+    </div>
 
-    </html>
+    <div id="dung" class="dung">
+      <img src="images/dung-beetle.jpg" alt="Dung beetle">
+        <a class="btn-3" href="#">Dung</a>
+    </div>
+
+    <div id="tortoise" class="tortoise">
+      <img src="images/tortoise-beetle.jpg" alt="Tortoise beetle">
+        <a class="btn-4" href="#">Tortoise</a>
+    </div>
+
+</div>
+
+<footer>
+  <img class="graphic" src="images/beetle.svg" alt="graphic of beetle">
+</footer>
+</main>
+</body>
+</html>
